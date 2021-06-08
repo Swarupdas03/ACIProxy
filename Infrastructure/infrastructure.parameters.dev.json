@@ -6,7 +6,7 @@
       "value": "dev"
     },
     "project_name": {
-      "value": "ACIDemo"
+      "value": "ACIDemo03"
     },
     "project_abbreviation": {
       "value": "demo"
@@ -23,12 +23,12 @@
     "tags": {
       "value": {
         "ENV": "DEV",
-        "PROJECT": "ACIDemo"
+        "PROJECT": "ACIDemo03"
       }
     },
     "aciproxy": {
       "value": {
-        "name": "kgdemoaciproxydev",
+        "name": "kgdemoaciproxydev03",
         "kind": "functionapp,linux",
         "runtimeStack": "python",
         "linuxFxVersion": "Python|3.7"
@@ -36,14 +36,14 @@
     },
     "appserviceplan": {
       "value": {
-        "name": "kgdemoaspdev",
+        "name": "kgdemoaspdev03",
         "kind": "linux",
         "sku": {
           "name": "Y1",
           "tier": "Dynamic"
         },
         "properties": {
-          "name": "kgdemoaspdev",
+          "name": "kgdemoaspdev03",
           "computeMode": "Dynamic",
           "workerSize": 0,
           "workerSizeId": 0,
@@ -55,7 +55,7 @@
     },
     "functionappstorage": {
       "value": {
-        "name": "kgdemofuncstoragedev",
+        "name": "kgdemofuncstoragedev03",
         "kind": "StorageV2",
         "sku": {
           "name": "Standard_LRS",
@@ -65,12 +65,12 @@
     },
     "appinsights": {
       "value": {
-        "name": "kgdemoappinsightsdev"
+        "name": "kgdemoappinsightsdev03"
       }
     },
     "storage": {
       "value": {
-        "name": "kgdemodatalakedev",
+        "name": "kgdemodatalakedev03",
         "gen2": false,
         "softDelete": true,
         "supportsHttpsTrafficOnly": true,
