@@ -70,7 +70,7 @@
     },
     "storage": {
       "value": {
-        "name": "kgdemodatalakedev03",
+        "name": "kgdemodatalakedev0307",
         "gen2": false,
         "softDelete": true,
         "supportsHttpsTrafficOnly": true,
@@ -88,7 +88,7 @@
     },
     "keyvault": {
       "value": {
-        "name": "kgdemokeyvaultdev",
+        "name": "kgdemokeyvaultdev0307",
         "enabledForTemplateDeployment": true,
         "enabledForDeployment": false,
         "enabledForDiskEncryption": false,
@@ -100,7 +100,7 @@
     },
     "containerRegistry": {
       "value": {
-        "name": "kgdemoacrdev",
+        "name": "kgdemoacrdev0307",
         "acrAdminUserEnabled": true,
         "sku": {
           "name": "Basic",
@@ -110,7 +110,7 @@
     },
     "datafactory": {
       "value": {
-        "name": "kgdemoadfdev"
+        "name": "kgdemoadfdev0307"
       }
     }
   }
